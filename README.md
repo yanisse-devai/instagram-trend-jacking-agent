@@ -166,6 +166,6 @@ Au-delà des métriques techniques, ces critères mesurent l'impact réel sur la
 
 ## 🤝 Contact
 
-Portfolio : [github.com/yanisse-kemel](https://github.com/yanisse-kemel) | LinkedIn : [linkedin.com/in/yanisse-kemel](https://linkedin.com/in/yanisse-kemel) | ✉️ yanisse@exemple.fr
+Portfolio : [github.com/yanisse-devai] | LinkedIn : [linkedin.com/in/yanisse-kemel] | ✉️ yanissekemel@gmail.com
 
 *Projet client — Usage privé.*
