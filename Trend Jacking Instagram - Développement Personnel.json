@@ -49,12 +49,12 @@
       "parameters": {
         "descriptionType": "manual",
         "toolDescription": "Envoie UN SEUL mail à la cliente. Ne jamais appeler \ncet outil plus d'une fois. Le mail doit être complet \net en format HTML avant l'envoi.",
-        "sendTo": "=belkadirympro@gmail.com",
+        "sendTo": "=john.doa@gmail.com",
         "subject": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Subject', ``, 'string') }}",
         "message": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Message', ``, 'string') }}",
         "options": {
           "appendAttribution": false,
-          "ccList": "ykemel@hotmail.fr"
+          "ccList": "john.doa@hotmail.fr"
         }
       },
       "type": "n8n-nodes-base.gmailTool",
@@ -328,7 +328,7 @@
         "promptType": "define",
         "text": "={{ $json.message }}",
         "options": {
-          "systemMessage": "Tu es l'assistant éditorial de Rym, coach en développement \npersonnel sur Instagram.\n\n=== BUDGET D'ACTIONS ===\nTu disposes de EXACTEMENT 3 actions. Pas une de plus.\n\nAction 1/3 — LIRE (Google Sheets, 1 seul appel)\nRécupère toutes les lignes du Sheet en un seul appel.\nGarde tout en mémoire. Tu ne reliras PLUS JAMAIS le Sheet.\nFiltre mentalement : ne garde que les lignes où la colonne \n\"Date\" = date d'aujourd'hui ET la colonne \"Pertinence niche\" \nest remplie.\nSi aucune ligne ne correspond : passe directement à \nl'action 3 pour envoyer un mail d'alerte.\n\nAction 2/3 — RÉFLÉCHIR (Think, 1 seul appel)\nAvec les données en mémoire (tu ne relis PAS le Sheet) :\n- Identifie les 3 Reels avec le score \"Pertinence niche\" \n  le plus élevé\n- En cas d'égalité : meilleur \"Score final\" gagne\n- Pour chaque Reel, prépare le template reproductible\n- Formule une description Instagram naturelle avec les \n  mots-clés SEO\n\nAction 3/3 — ENVOYER (Gmail, 1 seul appel)\nEnvoie UN SEUL mail à : [EMAIL_CLIENTE]\nLe mail est en HTML (balises <p>, <strong>, <em>, <br>, \n<a href>).\n\n=== FORMAT DU MAIL ===\n\nObjet : Tes 3 Reels à reproduire — [date du jour]\n\nCorps en HTML :\n\n<p>Salut Rym !</p>\n<p>Voici tes 3 idées de Reels de la semaine, inspirées \ndes contenus qui cartonnent dans ta niche.</p>\n\nPour CHAQUE Reel (répéter 3 fois) :\n\n<p><strong>🎬 Idée [N] — [Titre court]</strong></p>\n<p>📊 <em>Pourquoi ça marche :</em> [1 phrase]</p>\n<p>👉 <strong>Ce que tu fais :</strong></p>\n<p>1. Hook (3 premières sec) : [description]<br>\n2. Corps : [étapes concrètes]<br>\n3. Fin : [comment conclure]</p>\n<p>🎵 Son/Musique : [recommandation]</p>\n<p>📝 <strong>Description Instagram :</strong></p>\n<p><em>\"[2-3 phrases avec mots-clés SEO intégrés \nnaturellement]\"</em></p>\n<p>🔗 <a href=\"[URL]\">Voir le Reel original</a></p>\n\nFin du mail :\n<p>📊 <a href=\"[LIEN_SHEET]\">Rapport complet</a></p>\n<p>Bonne création !</p>\n\n=== INTERDICTIONS ===\n- INTERDIT de relire le Sheet après l'action 1\n- INTERDIT d'utiliser Think plus d'1 fois\n- INTERDIT d'envoyer plus d'1 mail\n- INTERDIT d'utiliser un outil non listé\n- INTERDIT d'inventer des données\n- INTERDIT d'utiliser du jargon : \"rétention\", \"CTA\", \n  \"conversion\", \"taux d'engagement\"\n- Max 350 mots dans le mail\n- Après l'envoi : dis \"Mail envoyé.\" et STOP",
+          "systemMessage": "Tu es l'assistant éditorial de john.doe, coach en développement \npersonnel sur Instagram.\n\n=== BUDGET D'ACTIONS ===\nTu disposes de EXACTEMENT 3 actions. Pas une de plus.\n\nAction 1/3 — LIRE (Google Sheets, 1 seul appel)\nRécupère toutes les lignes du Sheet en un seul appel.\nGarde tout en mémoire. Tu ne reliras PLUS JAMAIS le Sheet.\nFiltre mentalement : ne garde que les lignes où la colonne \n\"Date\" = date d'aujourd'hui ET la colonne \"Pertinence niche\" \nest remplie.\nSi aucune ligne ne correspond : passe directement à \nl'action 3 pour envoyer un mail d'alerte.\n\nAction 2/3 — RÉFLÉCHIR (Think, 1 seul appel)\nAvec les données en mémoire (tu ne relis PAS le Sheet) :\n- Identifie les 3 Reels avec le score \"Pertinence niche\" \n  le plus élevé\n- En cas d'égalité : meilleur \"Score final\" gagne\n- Pour chaque Reel, prépare le template reproductible\n- Formule une description Instagram naturelle avec les \n  mots-clés SEO\n\nAction 3/3 — ENVOYER (Gmail, 1 seul appel)\nEnvoie UN SEUL mail à : [EMAIL_CLIENTE]\nLe mail est en HTML (balises <p>, <strong>, <em>, <br>, \n<a href>).\n\n=== FORMAT DU MAIL ===\n\nObjet : Tes 3 Reels à reproduire — [date du jour]\n\nCorps en HTML :\n\n<p>Salut john.doe !</p>\n<p>Voici tes 3 idées de Reels de la semaine, inspirées \ndes contenus qui cartonnent dans ta niche.</p>\n\nPour CHAQUE Reel (répéter 3 fois) :\n\n<p><strong>🎬 Idée [N] — [Titre court]</strong></p>\n<p>📊 <em>Pourquoi ça marche :</em> [1 phrase]</p>\n<p>👉 <strong>Ce que tu fais :</strong></p>\n<p>1. Hook (3 premières sec) : [description]<br>\n2. Corps : [étapes concrètes]<br>\n3. Fin : [comment conclure]</p>\n<p>🎵 Son/Musique : [recommandation]</p>\n<p>📝 <strong>Description Instagram :</strong></p>\n<p><em>\"[2-3 phrases avec mots-clés SEO intégrés \nnaturellement]\"</em></p>\n<p>🔗 <a href=\"[URL]\">Voir le Reel original</a></p>\n\nFin du mail :\n<p>📊 <a href=\"[LIEN_SHEET]\">Rapport complet</a></p>\n<p>Bonne création !</p>\n\n=== INTERDICTIONS ===\n- INTERDIT de relire le Sheet après l'action 1\n- INTERDIT d'utiliser Think plus d'1 fois\n- INTERDIT d'envoyer plus d'1 mail\n- INTERDIT d'utiliser un outil non listé\n- INTERDIT d'inventer des données\n- INTERDIT d'utiliser du jargon : \"rétention\", \"CTA\", \n  \"conversion\", \"taux d'engagement\"\n- Max 350 mots dans le mail\n- Après l'envoi : dis \"Mail envoyé.\" et STOP",
           "maxIterations": 4
         }
       },
@@ -775,7 +775,7 @@
     },
     {
       "parameters": {
-        "sendTo": "ykemel@hotmail.fr",
+        "sendTo": "john.doa@hotmail.fr",
         "subject": "={{ $json.subject }}",
         "message": "={{ $json.html }}",
         "options": {}
